@@ -1,0 +1,8 @@
+#Node_modules
+node_modules
+
+#photo
+.jpg
+.png
+.svg
+/img
