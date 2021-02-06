@@ -3,7 +3,8 @@ import {postData} from "../services/requests";
 const forms = () => {
     const form = document.querySelectorAll('form'),
           inputs = document.querySelectorAll('input'),
-          upload = document.querySelectorAll('[name="upload"]');
+          upload = document.querySelectorAll('[name="upload"]'),
+          resultPrice = document.querySelector('.calc-price');
 
     const messages = {
         loadind: 'Загрузка...', 
